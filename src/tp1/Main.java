@@ -9,6 +9,12 @@ public class Main {
 		p.setX(4);
 		x = p.getX();
 		System.out.println("x=" + x);
+		
+		Etudiant etudiant = new Etudiant("Tintin");
+		System.out.println("Etudiant = " + etudiant.getNom());
+		
+		etudiant.setNom("Hadock");
+		System.out.println("Etudiant = " + etudiant.getNom());
 	}
 
 }
